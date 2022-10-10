@@ -67,7 +67,7 @@ path = '/kaggle/input/'
 Dense_haze_train_loader = DataLoader(dataset = RESIDE_Dataset(path + 'dense-haze/DENSE-HAZE/train', train = True), 
                              batch_size = BS, shuffle = True)
 
-Desne_haze_test_loader = DataLoader(dataset = RESIDE_Dataset(path + 'dense-haze/DENSE-HAZE/val', train = False), 
+Dense_haze_test_loader = DataLoader(dataset = RESIDE_Dataset(path + 'dense-haze/DENSE-HAZE/val', train = False), 
                              batch_size = 1, shuffle = False)
 
 
